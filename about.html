@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bendigital-Website</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About Us</h1>
+    </section>
+    
+<!----------About Us--------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h5>BenDigital is a technology company that seeks to enhance living and work in Zambia through technology. With our passion for technology, we source digital or technological solutions to living and work, and bring them closer to the end user. It is our conviction that in this digital age doing work should not be a struggle. Some work can be accomplished at just a click.</h5>
+            <br>
+			<h2>Mission Statement</h2>
+            <p>Our mission is to enhance living through digital solutions.</p>    
+            <h2>Vision</h2>
+            <p>Our vision is to have an ordinary Zambian life enhanced through technology.</p>
+            <a href="services.html" class="hero-btn red-btn">Check out our services</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        
+    <div class="footer-links" id="footerLinks">  
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="icons">
+        <a href="https://www.youtube.com/channel/UCeLy8nVKu4k6MEVFamD5-Kw"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCeLy8nVKu4k6MEVFamD5-Kw"><i class="fa fa-youtube"></i></a>
+    </div>
+<hr>
+    
+    <p>Copyright © 2023. Bendigital Enterprise. All rights reserved.</p>
+</section>    
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

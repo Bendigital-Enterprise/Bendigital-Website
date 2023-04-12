@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bendigital-Website</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Enhancing Life Digitally</h1>
+            <p>It is our conviction that in this digital age doing work should not be a struggle.</p>
+            <a href="about.html" class="hero-btn">Read more about us</a>
+        </div>
+    </section>
+    
+<!---------- Services ----------->
+    
+    <section class="service">
+        <h1>Services We Offer</h1>
+        <p>Explore our digital solutions at just a click.</p>
+        <div class="row">
+            <div class="service-col">
+                <img src="icons/websitedevelopment_icon.png"> 
+                <h3>Website and Webmail Designing</h3>
+                <p>If you would like your business, company, organisation or Church to have an online presence, we can design your website and webmail.</p>
+            </div>
+            <div class="service-col">
+                <img src="icons/digitalpublishing_icon.png"> 
+                <h3>Digital Publishing</h3>
+                <p>If you are an author and would like to publish your book electrically, we can do it for you and help you publish your book on Amazon Kindle (Kindle Direct Publishing).</p>
+            </div>
+            <div class="service-col">
+                <img src="icons/graphicdesign_icon.png"> 
+                <h3>Graphic Designing</h3>
+                <p>We can design Infographics, Brochures, Flyers etc for your business, company, organisation or Church.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="service-col">
+                <img src="icons/onlineservices_icon.png"> 
+                <h3>Online Services</h3>
+                <p>We offer online services from Typing, Email account opening, ZRA TPIN registration & Tax returns, RTSA Road Tax, Motor Vehicle Insurance, NHIMA Registration & Returns to PACRA Registration & Returns.</p>
+            </div>
+            <div class="service-col">
+                <img src="icons/soundsystem_icon.png"> 
+                <h3>Sound System Hire</h3>
+                <p>You could be organising a wedding, bridal shower, baby shower or birthday party and you require a sound system. We have a music system on hire for your all events and functions.</p>
+            </div>
+            <div class="service-col">
+                <img src="icons/ziboprojects_Icon.png"> 
+                <h3>Zibo Projects</h3>
+                <p><b>Comining Soon!</b>Under this project are solutions to enhance your spiritual and academic development.<b>Watch this Space!</b></p>
+            </div>
+        </div>
+    </section>
+    
+<!------ Call To Action ------>
+
+<section class="cta">
+    
+       <h1>Interested in any of our services?<br>Let us know how we could be of service to you.</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    
+</section>    
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        
+    <div class="footer-links" id="footerLinks">  
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="icons">
+        <a href="https://www.youtube.com/channel/UCeLy8nVKu4k6MEVFamD5-Kw"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCeLy8nVKu4k6MEVFamD5-Kw"><i class="fa fa-youtube"></i></a>
+    </div>
+<hr>
+    
+    <p>Copyright © 2023. Bendigital Enterprise. All rights reserved.</p>
+</section>    
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+

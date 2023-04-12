@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bendigital-Website</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Services</h1>
+    </section>
+    
+<!----------Our Services----------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Here are services we offer.</h1>
+			<h2>Website and Webmail Designing</h2>     
+            <p>If you would like your business, company, organisation or Church to have an online presence, we can design your website and webmail.</p>
+			<h2>Digital Publishing</h2>
+            <p>If you are an author and would like to publish your book electrically, we can do it for you and help you publish your book on Amazon Kindle (Kindle Direct Publishing).</p>
+			<h2>Graphic Designing</h2>
+            <p>We can design Infographics, Brochures, Flyers etc for your business, company, organisation or Church. </p>
+			<h2>Online Services</h2>
+            <p>The following are services that we can offer you online:</p>
+				<ul>
+					<li>Typing</li>
+					<li>Email Account Opening</li>
+					<li>Online Payment Portal Opening</li>
+					<li>ZRA TPIN Registration and Tax Returns</li>
+					<li>RTSA Road Tax</li>
+					<li>Motr Vehicle Insurance</li>
+					<li>RTSA Road Tax</li>
+					<li>NHIMA Registration & Returns</li>
+					<li>PACRA Registration & Returns</li>
+				</ul>
+				<br>
+            <h2>Sound System Hire</h2>
+            <p>You could be organising a wedding, bridal shower, baby shower or birthday party and you require a sound system. We have a music system on hire for your all events and functions.</p>
+            <h2>Zibo Project</h1>     
+            <p>Under this project the following solutions are coming soon:</p>
+				<ul>
+					<li>Lizucast:<b></b>A podcast site for Churches, Christian music artists, Preachers and Teachers for them to share their work. </li>
+					<li>Ziboacademy:<b></b>An online learning platform to supplement and enhance your learning and prepare you for exams.  </li>
+					<li>Zibobox:<b></b>A video platform for Churches, Christian music artists,  Preachers and Teachers for them to share video content of their work.</li>
+					<li>Zibopedia:<b></b>An article platform to host educational articles, both spiritual and academic, on various topics across educational disciplines.</li>
+				</ul>
+            <br>
+            <a href="contact.html" class="hero-btn red-btn">Contact Us Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/services.jpg">
+			<br>
+			<br>
+			<a href="contact.html" class="hero-btn red-btn">Contact Us Now</a>
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        
+    <div class="footer-links" id="footerLinks">  
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+			<li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="icons">
+        <a href="https://www.youtube.com/channel/UCeLy8nVKu4k6MEVFamD5-Kw"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCeLy8nVKu4k6MEVFamD5-Kw"><i class="fa fa-youtube"></i></a>
+    </div>
+<hr>
+    
+    <p>Copyright © 2023. Bendigital Enterprise. All rights reserved.</p>
+</section>    
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
